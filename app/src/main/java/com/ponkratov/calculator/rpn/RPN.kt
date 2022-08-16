@@ -59,13 +59,14 @@ object RPN {
 
         return stack.pop()
     }
-}
 
-private fun <E> MutableList<E>.writeToString(): String {
-    var resultString = ""
-    this.forEach {
-        resultString += "$it "
+
+    private fun <E> MutableList<E>.writeToString(): String {
+        var resultString = ""
+        this.forEach {
+            resultString += "$it "
+        }
+
+        return resultString.trim()
     }
-
-    return resultString.trim()
 }
