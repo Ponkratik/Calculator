@@ -18,7 +18,7 @@
     <style name="ResultTextView">
         <item name="android:background">@color/smoke_white</item>
         <item name="android:textColor">@color/signal_black</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:gravity">center</item>
         <item name="android:textAlignment">gravity</item>
     </style>
