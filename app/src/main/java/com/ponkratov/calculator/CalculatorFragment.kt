@@ -165,6 +165,10 @@ class CalculatorFragment : Fragment() {
             }
 
             buttonEquals.setOnClickListener {
+                if (textviewResult.text.toString() == defaultString) {
+                    return@setOnClickListener
+                }
+
                 val bracketStack: Stack<Char> = Stack<Char>()
                 textviewResult.text.forEach {
                     if (it == '(') bracketStack.push(it)
