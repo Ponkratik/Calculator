@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumButton">
+        <item name="android:backgroundTint">@color/smoke_white</item>
+        <item name="android:textColor">@color/signal_black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="SignButton">
+        <item name="android:backgroundTint">@color/charcoal</item>
+        <item name="android:textColor">@color/smoke_white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="EqualsButton">
+        <item name="android:backgroundTint">@color/pumpkin</item>
+        <item name="android:textColor">@color/smoke_white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="ResultTextView">
+        <item name="android:background">@color/smoke_white</item>
+        <item name="android:textColor">@color/signal_black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+</resources>

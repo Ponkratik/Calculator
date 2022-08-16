@@ -7,12 +7,11 @@
 
     <TextView
         android:id="@+id/textview_result"
+        style="@style/ResultTextView"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:gravity="center"
-        android:textSize="30sp"
         android:layout_weight="1"
-        android:text="Enter an expression"/>
+        android:text="@string/default_string"/>
 
     <TableLayout
         android:layout_width="match_parent"
@@ -23,27 +22,31 @@
             >
             <Button
                 android:id="@+id/button_clear"
-                android:text="Clear"
+                style="@style/SignButton"
+                android:text="@string/button_ac"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/button_open_bracket"
-                android:text="("
+                style="@style/SignButton"
+                android:text="@string/button_open_bracket"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_close_bracket"
-                android:text=")"
+                style="@style/SignButton"
+                android:text="@string/button_close_bracket"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_backspace"
-                android:text="Del"
+                style="@style/SignButton"
+                android:text="@string/button_del"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
@@ -55,27 +58,31 @@
             >
             <Button
                 android:id="@+id/button_7"
-                android:text="7"
+                style="@style/NumButton"
+                android:text="@string/button_7"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/button_8"
-                android:text="8"
+                style="@style/NumButton"
+                android:text="@string/button_8"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_9"
-                android:text="9"
+                style="@style/NumButton"
+                android:text="@string/button_9"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_divide"
-                android:text="/"
+                style="@style/SignButton"
+                android:text="@string/button_divide"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
@@ -87,27 +94,31 @@
             >
             <Button
                 android:id="@+id/button_4"
-                android:text="4"
+                style="@style/NumButton"
+                android:text="@string/button_4"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/button_5"
-                android:text="5"
+                style="@style/NumButton"
+                android:text="@string/button_5"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_6"
-                android:text="6"
+                style="@style/NumButton"
+                android:text="@string/button_6"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_multiply"
-                android:text="*"
+                style="@style/SignButton"
+                android:text="@string/button_multiply"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
@@ -119,27 +130,31 @@
             >
             <Button
                 android:id="@+id/button_1"
-                android:text="1"
+                style="@style/NumButton"
+                android:text="@string/button_1"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/button_2"
-                android:text="2"
+                style="@style/NumButton"
+                android:text="@string/button_2"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_3"
-                android:text="3"
+                style="@style/NumButton"
+                android:text="@string/button_3"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_minus"
-                android:text="-"
+                style="@style/SignButton"
+                android:text="@string/button_minus"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
@@ -147,31 +162,34 @@
         </TableRow>
 
         <TableRow
-            android:layout_weight="1"
-            >
+            android:layout_weight="1">
             <Button
                 android:id="@+id/button_0"
-                android:text="0"
+                style="@style/NumButton"
+                android:text="@string/button_0"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/button_point"
-                android:text="."
+                style="@style/SignButton"
+                android:text="@string/button_point"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_equals"
-                android:text="="
+                style="@style/EqualsButton"
+                android:text="@string/button_equals"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
             <Button
                 android:id="@+id/button_plus"
-                android:text="+"
+                style="@style/SignButton"
+                android:text="@string/button_plus"
                 android:layout_marginStart="2dp"
                 android:layout_marginEnd="2dp"
                 android:layout_height="match_parent"

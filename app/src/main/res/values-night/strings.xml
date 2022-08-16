@@ -1,8 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Calculator</string>
-    <string name="default_string">Enter an expression</string>
     <string name="button_ac">AC</string>
-    <string name="button_open_bracket">(</string>
     <string name="button_close_bracket">)</string>
     <string name="button_del">Del</string>
     <string name="button_multiply">*</string>
