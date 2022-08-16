@@ -52,7 +52,7 @@ object RPN {
                 OperationEnum.PLUS -> stack.push(stack.pop() + stack.pop())
                 OperationEnum.MINUS -> stack.push(-stack.pop() + stack.pop())
                 OperationEnum.MULTIPLY -> stack.push(stack.pop() * stack.pop())
-                OperationEnum.DIVIDE -> stack.push(stack.pop() / stack.pop())
+                OperationEnum.DIVIDE -> stack.push(1 / stack.pop() * stack.pop())
                 else -> stack.push(it.toDouble())
             }
         }
